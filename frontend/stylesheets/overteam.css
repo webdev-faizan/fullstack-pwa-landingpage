@@ -1,0 +1,84 @@
+.over-team-container {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+.over-team-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 85px;
+  text-transform: capitalize;
+  color: #222222;
+}
+.over-team-description {
+  width: 821px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #222222;
+}
+.team-card-item {
+  width: 286px;
+
+  background: #ffffff;
+  box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+.team-card-item h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 3.7rem;
+
+  text-align: center;
+
+  color: #222222;
+}
+.team-card-item h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #222222;
+}
+.team-card-item p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #222222;
+}
+.team-card-item img {
+  object-fit: cover;
+  width: 286px;
+  height: 272px;
+}
+.team-card-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+@media screen and (max-width:830px) {
+
+    .over-team-description{
+        width: auto;
+    }
+    
+}

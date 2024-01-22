@@ -1,0 +1,134 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 20px;
+  padding-top: 50px;
+}
+footer .logo {
+  width: 105px;
+  height: 74px;
+}
+.company-info p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  width: 330.6px;
+
+  color: #191919;
+  padding: 20px 0;
+}
+
+.company-socail-link {
+  display: flex;
+  gap: 20px;
+}
+.link a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  display: inline;
+  color: #222222;
+  width: max-content;
+  display: block;
+  padding: 5px 0;
+}
+.link h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 26px */
+
+  color: #222222;
+}
+.get-touch h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #222222;
+}
+.get-touch h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 5px 0;
+  color: #191919;
+}
+.get-touch input {
+  border-radius: 38px;
+  height: 50.86px;
+
+  background: #d6d6d6;
+  opacity: 0.6;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #191919;
+outline: none;
+border: none;
+padding: 0 4px;
+}
+.get-touch button {
+  width: 120.03px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+
+  height: 50.86px;
+
+  outline: none;
+  border: none;
+  background: linear-gradient(180deg, #f56d70 0%, #ad393c 100%);
+  border-radius: 39px;
+}
+.copyright {
+  /* width: 1440px; */
+  height: 73px;
+  background: linear-gradient(180deg, #f56d70 0%, #ad393c 100%);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 73px;
+  margin-top: 30px;
+}
+.Subscribe{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+
+}
+
+@media screen and (max-width: 850px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  .submit {
+    width: 16.4rem;
+    height: 5rem;
+  }
+}

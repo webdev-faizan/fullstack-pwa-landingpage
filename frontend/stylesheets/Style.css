@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+html {
+  font-size: 65.5%;
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+      font-size: 65.5%;
+  }
+}
+
+@media screen and (max-width: 76px) {
+  html {
+      font-size: 65.5%;
+  }
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../public/assest/font/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../public/assest/font/Poppins-ExtraLight.ttf");
+}
+
+body {
+  overflow-x: hidden !important;
+}

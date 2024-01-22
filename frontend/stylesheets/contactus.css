@@ -1,0 +1,110 @@
+#contactus {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 30px;
+  gap: 10rem;
+  width: 100%;
+}
+.contact-us-wrapper {
+  width: 100%;
+  padding: 0 20px;
+  margin: 8rem 0;
+  display: grid;
+  grid-template-columns: 800px 1fr;
+  gap: 7rem;
+}
+.contactus-img {
+  background-image: url("../public/assest/images/contactus-side-image.png");
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+.contact-us-wraper h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 45px;
+
+  color: #252b42;
+}
+.input-wrapper label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #3a2a2a;
+  display: block;
+  margin: 4px 0;
+}
+
+.input-wrapper input {
+  font-family: "Poppins";
+  max-width: 500px;
+  height: 58px;
+  min-width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #747582;
+  padding: 0 2rem;
+  border: none;
+  outline: none;
+  background: #ffffff;
+}
+.submit {
+  width: 22.4rem;
+  height: 6rem;
+  background: linear-gradient(180deg, #f56d70 0%, #ad393c 100%);
+  border-radius: 34px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+
+  color: #ffffff;
+  outline: none;
+  border: none;
+  margin-top: 9px;
+}
+.submit:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .contact-us-wrapper {
+    grid-template-columns: 1fr;
+    /* background-color: red; */
+  }
+  .contact-us-wrapper {
+    gap: 20px;
+  }
+  .contactus-img {
+    height: 301px;
+    width: 100;
+  }
+  input {
+    width: auto;
+    background-attachment: red !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #contactus {
+    padding: 0;
+  }
+  .contactus-img {
+    height: 301px;
+    width: auto;
+    position: relative;
+    left: -10px;
+  }
+  .testimonials-sub-title {
+    font-size: 20px;
+  }
+}

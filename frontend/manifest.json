@@ -1,0 +1,28 @@
+{
+  "name": "My PWA",
+  "short_name": "My PWA",
+  "description": "This is my PWA",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "start_url": "/index.html",
+  "icons": [
+    {
+      "src": "/public/assest/favicon_io/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/public/assest/favicon_io/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "orientation": "any",
+  "serviceworker": "/sw.js"
+}

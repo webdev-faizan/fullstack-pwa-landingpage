@@ -1,0 +1,3 @@
+URI='mongodb://localhost:27017/mail'
+PASSWORD=aiosjaios0
+USER=exemple@gmail.com
